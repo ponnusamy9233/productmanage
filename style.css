@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#login{
+    width: 100%;
+    background-color: darkorange;
+    height: 100px;
+}
+#login h4{
+    text-align: center;
+    color: white;
+    line-height: 90px;
+}
+#lg-frm{
+    width: 30%;
+    margin-left: 450px;
+    margin-top: 50px;
+
+}
+#left-frm{
+    width: 30%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.btn{
+    background-color: darkorange;
+    color: white;
+    border: 1px solid black;
+}
+#alert{
+    color: red;
+}
+#pro_list{
+    margin-left: 550px;
+    width: 700px;
+    margin-bottom: 400px;
+    margin-top: -200px;
+   
+
+}
+thead{
+    width: 100%;
+}
+input[type="text"],input[type="number"]{
+    padding: 4px 20px;
+    margin: 5px;
+   
+}
+.create_btn{
+    background-color: darkorange;
+    color: white;
+    border: 1px solid black;
+    margin-left: 140px;
+    padding: 4px 6px;
+}
+.invoice-title h2, .invoice-title h3 {
+    display: inline-block;
+}
+
+.table > tbody > tr > .no-line {
+    border-top: none;
+}
+
+.table > thead > tr > .no-line {
+    border-bottom: none;
+}
+
+.table > tbody > tr > .thick-line {
+    border-top: 2px solid;
+}
+.address{
+    float: right;
+    margin-right: 40px;
+    margin-top: -100px;
+}
